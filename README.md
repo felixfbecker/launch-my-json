@@ -1,6 +1,8 @@
 
 # launch-my-json
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/felixfbecker/launch-my-json.svg)](https://greenkeeper.io/)
+
 [![Version](https://img.shields.io/npm/v/launch-my-json.svg?maxAge=2592000)](https://www.npmjs.com/package/launch-my-json)
 [![Build Status](https://travis-ci.org/felixfbecker/node-launch-my-json.svg?branch=master)](https://travis-ci.org/felixfbecker/node-launch-my-json)
 ![Dependencies](https://david-dm.org/felixfbecker/node-launch-my-json.svg)
