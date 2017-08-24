@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "plugins": [
+      {
+        "name": "tslint-language-service",
+        "configFile": "./tslint.json",
+        "alwaysShowRuleFailuresAsWarnings": true
+      }
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

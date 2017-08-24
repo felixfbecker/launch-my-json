@@ -1,0 +1,49 @@
+{
+  "name": "launch-my-json",
+  "version": "0.0.1",
+  "description": "Launch VS Code's launch.json from your terminal",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "dist/launch.js",
+  "types": "dist/launch.d.ts",
+  "bin": {
+    "launch": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixfbecker/launch-my-json.git"
+  },
+  "keywords": [
+    "launch",
+    "json",
+    "vscode"
+  ],
+  "author": "Felix Becker <felix.b@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixfbecker/launch-my-json/issues"
+  },
+  "homepage": "https://github.com/felixfbecker/launch-my-json#readme",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/exit-hook": "^1.1.0",
+    "@types/left-pad": "^1.1.2",
+    "@types/mz": "0.0.31",
+    "@types/strip-json-comments": "0.0.30",
+    "mz": "^2.6.0",
+    "strip-json-comments": "^2.0.1",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "exit-hook": "^1.1.1",
+    "left-pad": "^1.1.3"
+  }
+}
